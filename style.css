@@ -1,0 +1,75 @@
+/**************************/
+/***** INDEX ME HTML ******/
+/**************************/
+:root {
+    --yellow: #F6BE00;
+    --green: #3A5F0B;
+    /* This is an example */
+    /* Create your own color variables */
+    /* At most I recommend using 3 colors 
+      that will be used accross your website */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Choose your font family here
+        or you can add it later */
+}
+
+body {
+    background-color: var(--green);
+    /* the bg color would be the same as your 
+        quote section bg color */
+}
+
+.landingPage {
+    background-image: url("img/https://i1.sndcdn.com/artworks-000103140454-fet491-t500x500.jpg");
+    min-height: 500px;
+    width: 100%;
+}
+
+
+
+/***  LANDING PAGE ***/
+header img {
+    width: 50px;
+}
+
+
+/***  NAVIGATION BAR ***/
+
+
+
+/***  TITLE ***/
+
+
+
+/***  QUOTE SECTION ***/
+
+
+
+/***  CARDS ***/
+.column img {
+    height: 100px
+}
+
+
+/***  LAST SECTION ***/
+
+
+
+/***  FOOTER ***/
+
+
+
+
+
+
+
+/**************************/
+/***** ABOUT ME HTML ******/
+/**************************/
+/* Use CSS from previous CSS to 
+      add and edit here */
