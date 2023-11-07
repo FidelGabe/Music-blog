@@ -16,6 +16,7 @@
     box-sizing: border-box;
     /* Choose your font family here
         or you can add it later */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -25,9 +26,17 @@ body {
 }
 
 .landingPage {
-    background-image: url("img/https://i1.sndcdn.com/artworks-000103140454-fet491-t500x500.jpg");
-    min-height: 500px;
+    background-image: url("https://i1.sndcdn.com/artworks-000103140454-fet491-t500x500.jpg");
+    min-height: 550px;
     width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    position: absolute;
+    z-index: -1;
 }
 
 
@@ -39,25 +48,86 @@ header img {
 
 
 /***  NAVIGATION BAR ***/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    padding: 35px 5%;
+}
 
+.navLinks {
+    list-style-type: none;
+    display: flex;
+}
 
+.navLinks li {
+    padding: 0 15px;
+}
+
+.navLinks a {
+    color: var(--yellow);
+    font-size: 25px;
+    text-decoration: none;
+}
 
 /***  TITLE ***/
-
+header h1 {
+    color: var(--yellow);
+    text-align: center;
+    font-size: 100px;
+    margin-top: 150px;
+}
 
 
 /***  QUOTE SECTION ***/
-
+.quoteSection {
+    background-color: dimgray;
+    margin-top: 170px;
+    padding: 35px 20px;
+    text-align: center;
+}
 
 
 /***  CARDS ***/
 .column img {
-    height: 100px
+    height: 100px;
+    width: 230px;
 }
 
+.row {
+    background-color: var(--green);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column {
+    background-color: var(--yellow);
+    width: 290px;
+    margin: 50px 0px;
+}
+
+.content_wrap {
+    color: darkred;
+    margin: 20px;
+}
+
+q {
+    color: indigo;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 /***  LAST SECTION ***/
 
+.last_section {
+    background-color: var(--yellow);
+    width: 290px;
+    color: darkred;
+    margin: 20px;
+    margin: 50px 0px;
+    position: flex;
+    justify-content: center;
+}
 
 
 /***  FOOTER ***/
