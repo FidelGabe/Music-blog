@@ -131,7 +131,12 @@ q {
 
 
 /***  FOOTER ***/
+footer {
+    background-color: #322a2a;
+    justify-content: center;
+    text-align: center;
 
+}
 
 
 
@@ -140,6 +145,7 @@ q {
 
 /**************************/
 /***** ABOUT ME HTML ******/
+
 /**************************/
 /* Use CSS from previous CSS to 
       add and edit here */
